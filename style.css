@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5em;
+    height: 100px;
+    align-items: center;
+}
+
+nav .anwar {
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+section {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    height: 120px;
+    align-items: center;
+}
+
+section .header {
+    font-family: "Droid Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 19px;
+    text-align: center;
+}
